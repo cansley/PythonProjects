@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exch:BatchHandlingServiceRequest xmlns:hix-core="http://hix.cms.gov/0.1/hix-core"
+    xmlns:ext="http://rrvcinctodshresp.dsh.cms.gov/extension/1.0"
+ xmlns:i="http://niem.gov/niem/appinfo/2.0"
+ xmlns:i2="http://niem.gov/niem/appinfo/2.1"
+ xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+ xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0"
+ xmlns:s="http://niem.gov/niem/structures/2.0"
+ xmlns:exch="http://rrvcinctodshresp.dsh.cms.gov/exchange/1.0"
+ xmlns:usps="http://niem.gov/niem/usps_states/2.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://rrvcinctodshresp.dsh.cms.gov/exchange/1.0 ../XMLschemas/constraint/XMLschemas/exchange/ExchangeModel.xsd">
+    <hix-core:BatchMetadata>
+        <hix-core:BatchID>2006-05-04T00:00:00Z</hix-core:BatchID>
+        <hix-core:BatchPartnerID>00.AA*.000.000.000</hix-core:BatchPartnerID>
+        <hix-core:BatchAttachmentTotalQuantity>1</hix-core:BatchAttachmentTotalQuantity>
+        <ext:BatchCategoryCode>CINC_RRV_RESP</ext:BatchCategoryCode>
+        <hix-core:BatchTransmissionQuantity>1</hix-core:BatchTransmissionQuantity>
+    </hix-core:BatchMetadata>
+    <hix-core:TransmissionMetadata>
+        <hix-core:TransmissionAttachmentQuantity>0</hix-core:TransmissionAttachmentQuantity>
+        <hix-core:TransmissionSequenceID>50</hix-core:TransmissionSequenceID>
+    </hix-core:TransmissionMetadata>
+    <ext:ServiceSpecificData>
+        <hix-core:ResponseMetadata>
+            <hix-core:ResponseDescriptionText>Success</hix-core:ResponseDescriptionText>
+            <hix-core:ResponseCode>0000</hix-core:ResponseCode>
+        </hix-core:ResponseMetadata>
+        <ext:SHA256HashValueText>SHA256HashValueText0</ext:SHA256HashValueText>
+    </ext:ServiceSpecificData>
+    <ext:Attachment>
+        <hix-core:DocumentBinary>
+            <hix-core:ChecksumAugmentation>
+                <hix-core:MD5ChecksumText>000000000000000000AE000000001010</hix-core:MD5ChecksumText>
+            </hix-core:ChecksumAugmentation>
+            <hix-core:BinarySizeValue>50</hix-core:BinarySizeValue>
+        </hix-core:DocumentBinary>
+        <nc:DocumentFileName>CINC_Response_00001_10000101T010101000Z.xml</nc:DocumentFileName>
+        <nc:DocumentSequenceID>00001</nc:DocumentSequenceID>
+        <ext:DocumentRecordCount>100</ext:DocumentRecordCount>
+    </ext:Attachment>
+</exch:BatchHandlingServiceRequest>
